@@ -1,5 +1,8 @@
 # MockSpin 🚀
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94bbdabb-b4f9-4e55-9ae6-e846b8a21333" />
+
+
 **OpenAPI → Real Dummy Backend (Offline, CRUD, Zero Boilerplate)**
 
 MockSpin is a CLI tool that turns an **OpenAPI 3.x specification** into a **fully working local dummy backend** with real CRUD-like behavior — no manual coding, no cloud dependency, no heavy frameworks.
