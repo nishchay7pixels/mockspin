@@ -297,6 +297,19 @@ curl -X POST http://localhost:4010/users \
 # Fetch data
 curl http://localhost:4010/users
 ```
+# Feedback Wanted
+
+MockSpin is in early development.
+
+If you try it and have thoughts on:
+- CLI UX
+- error messages
+- missing commands
+- developer experience
+
+please open an issue or start a discussion.
+
+Honest feedback is more valuable than stars.
 
 # License 
 ###  MIT 
