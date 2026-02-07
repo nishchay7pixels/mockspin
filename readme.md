@@ -97,10 +97,41 @@ MockSpin is designed to be lightweight and offline-first, but it assumes a few s
 
 ## Install
 
-### Option A: Go install (from source)
+MockSpin is distributed as a Go CLI binary.
+
+### Option 1: Install using Go (recommended)
+
+Requires **Go 1.22+**.
+
 ```bash
 go install github.com/nishchay7pixels/mockspin@latest
 ```
+This installs the mockspin binary into:
+```bash
+$HOME/go/bin
+```
+Add mockspin to your **PATH**
+If mockspin is not found after installation, add the Go bin directory to your PATH.
+
+macOS / Linux (bash / zsh)
+
+Add this line to ~/.bashrc, ~/.zshrc, or ~/.profile:
+```bash
+export PATH="$HOME/go/bin:$PATH"
+```
+Reload your shell:
+```bash
+source ~/.zshrc
+```
+Verify:
+```bash
+mockspin --help
+```
+### Option 2: Download prebuilt binary (coming soon)
+
+Prebuilt binaries for macOS and Linux will be available via GitHub Releases.
+
+**Until then, installing via Go is the recommended method.**
 
 ## Build locally
 ```bash
