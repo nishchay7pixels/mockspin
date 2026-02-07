@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/yourname/mockspin/internal/util"
+	"github.com/nishchay7pixels/mockspin/internal/util"
 )
 
 type Session struct {

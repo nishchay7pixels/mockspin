@@ -99,7 +99,18 @@ MockSpin is designed to be lightweight and offline-first, but it assumes a few s
 
 ### Option A: Go install (from source)
 ```bash
-go install github.com/<you>/mockspin@latest
+go install github.com/nishchay7pixels/mockspin@latest
+```
+
+## Build locally
+```bash
+go mod tidy
+go build -o mockspin .
+./mockspin doctor
+./mockspin up --spec ./openapi.yaml --port 4010
+# Ctrl+C stops container and removes session
+./mockspin status
+./mockspin stop
 ```
 
 # Roadmap

@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/yourname/mockspin/internal/docker"
-	"github.com/yourname/mockspin/internal/session"
+	"github.com/nishchay7pixels/mockspin/internal/docker"
+	"github.com/nishchay7pixels/mockspin/internal/session"
 )
 
 var statusProject string

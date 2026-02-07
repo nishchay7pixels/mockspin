@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/yourname/mockspin/internal/docker"
-	"github.com/yourname/mockspin/internal/ollama"
+	"github.com/nishchay7pixels/mockspin/internal/docker"
+	"github.com/nishchay7pixels/mockspin/internal/ollama"
 )
 
 var doctorCmd = &cobra.Command{

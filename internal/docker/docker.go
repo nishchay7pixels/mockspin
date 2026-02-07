@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/yourname/mockspin/internal/execx"
+	"github.com/nishchay7pixels/mockspin/internal/execx"
 )
 
 type Mount struct {

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/yourname/mockspin/cmd"
+import "github.com/nishchay7pixels/mockspin/cmd"
 
 func main() {
 	cmd.Execute()

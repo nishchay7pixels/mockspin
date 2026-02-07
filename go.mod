@@ -1,4 +1,4 @@
-module github.com/yourname/mockspin
+module github.com/nishchay7pixels/mockspin
 
 go 1.22
 
